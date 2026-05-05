@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.ratesp.mod.mixins",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [],
+  "client": [
+    "ClientMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

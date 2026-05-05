@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "ratesp",
+  "version": "1.0.0",
+  "name": "RatESP",
+  "description": "Hypixel SkyBlock Rat ESP - Tracers, Box, Nametag, Radar",
+  "authors": ["You"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.ratesp.mod.RatESP"
+    ]
+  },
+  "mixins": [
+    "ratesp.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "1.21",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
